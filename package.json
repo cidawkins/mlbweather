@@ -1,0 +1,32 @@
+{
+  "name": "mlbweather",
+  "version": "0.0.0",
+  "description": "Retrieve hourly forecast for all active MLB venues",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -v -L -t 100 -m 190000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaw187/mlbweather.git"
+  },
+  "keywords": [
+    "MLB",
+    "Weather"
+  ],
+  "author": "James Weston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaw187/mlbweather/issues"
+  },
+  "homepage": "https://github.com/jaw187/mlbweather#readme",
+  "dependencies": {
+    "hoek": "^3.0.4",
+    "insync": "^2.1.1",
+    "joi": "^8.0.3"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^10.1.0"
+  }
+}
