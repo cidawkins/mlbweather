@@ -1,6 +1,6 @@
 {
   "name": "mlbweather",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Retrieve hourly forecast for all active MLB venues",
   "main": "lib/index.js",
   "scripts": {
