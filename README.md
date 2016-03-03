@@ -13,12 +13,11 @@ npm install mlbweather
 ```
 const Mlbweather = require('mlbweather');
 
-var options = {
+const options = {
   key: 'wundergroundkey'
 };
 
-var mlbweather = new Mlbweather(options);
-
+const mlbweather = new Mlbweather(options);
 mlbweather.get(function (err, results) {
   
   //... do something
